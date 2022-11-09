@@ -1,0 +1,150 @@
+@media screen and (max-width:1030px) {
+    .banner_logo {
+        width: 260px;
+        height: 170px;
+    }
+
+    .banner_h {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header_wrap {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .banner_logo {
+        width: 240px;
+        height: 150px;
+    }
+
+    .banner_h {
+        font-size: 50px;
+    }
+
+    .banner_p {
+        font-size: 24px;
+    }
+
+    .nav__link:hover {
+        border-top: 2px solid transparent;
+        border-bottom: 2px solid transparent;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .cards_wrap {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card{
+        width: 300px;
+    }
+
+    .banner_logo {
+        width: 200px;
+        height: 130px;
+    }
+
+    .banner_h {
+        font-size: 40px;
+    }
+
+    .banner_p {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:630px){
+    .shoes_h{
+        font-size: 20px;
+    }
+
+    .menu_link{
+        font-size: 13px;
+    }
+
+    .footer_item{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .card{
+        width: 250px;
+    }
+
+    .shoes_h{
+        font-size: 18px;
+    }
+
+    .menu_link{
+        font-size: 15px;
+    }
+
+    .menu_item {
+        flex-basis: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:500px){
+    .card{
+        width: 200px;
+    }
+    
+    .shoes_menu{
+        gap: 20px;
+    }
+
+    .footer_item{
+        font-size: 16px;
+    }
+
+    .footer_img{
+        width: 78px;
+        height: 56px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .banner_logo {
+        width: 190px;
+        height: 110px;
+    }
+
+    .banner_h {
+        font-size: 36px;
+    }
+
+    .banner_p {
+        font-size: 15px;
+    }
+
+    .info_h{
+        font-size: 20px;
+    }
+    
+    .card{
+        width: 390px;
+    }
+
+    .footer_menu{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .banner_logo {
+        width: 160px;
+        height: 100px;
+    }
+
+}
